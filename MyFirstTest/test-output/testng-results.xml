@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="23334" started-at="2020-01-13T19:50:13Z" finished-at="2020-01-13T19:50:36Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="23334" started-at="2020-01-13T19:50:13Z" finished-at="2020-01-13T19:50:36Z">
+      <class name="test.GoogleSearchTestNG">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.GoogleSearchTestNG@68be2bc2]" name="setUpTest" is-config="true" duration-ms="4989" started-at="2020-01-13T11:50:13Z" finished-at="2020-01-13T11:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.GoogleSearchTestNG2@28feb3fa]" name="setUpTest" is-config="true" duration-ms="2616" started-at="2020-01-13T11:50:18Z" finished-at="2020-01-13T11:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.GoogleSearchTestNG@68be2bc2]" name="googleSearch" duration-ms="4092" started-at="2020-01-13T11:50:20Z" finished-at="2020-01-13T11:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="PostTest()[pri:0, instance:test.GoogleSearchTestNG@68be2bc2]" name="PostTest" is-config="true" duration-ms="2291" started-at="2020-01-13T11:50:31Z" finished-at="2020-01-13T11:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostTest -->
+        <test-method status="PASS" signature="PostTest()[pri:0, instance:test.GoogleSearchTestNG2@28feb3fa]" name="PostTest" is-config="true" duration-ms="2462" started-at="2020-01-13T11:50:33Z" finished-at="2020-01-13T11:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostTest -->
+      </class> <!-- test.GoogleSearchTestNG -->
+      <class name="test.GoogleSearchTestNG2">
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.GoogleSearchTestNG2@28feb3fa]" name="googleSearch" duration-ms="6851" started-at="2020-01-13T11:50:24Z" finished-at="2020-01-13T11:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+      </class> <!-- test.GoogleSearchTestNG2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
