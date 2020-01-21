@@ -25,6 +25,8 @@ public class GoogleSearchPageTest {
 
 		GoogleSearchPageObjects searchPageObj = new GoogleSearchPageObjects(driver);
 
+		//Using GoogleSearchPageObjects POM
+		
 		driver.get("https://google.com");
 
 		searchPageObj.setTextInSearchBox("A B C D");
@@ -34,7 +36,7 @@ public class GoogleSearchPageTest {
 		
 		//driver.getTitle();
 		//System.out.println("Success");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.close();
 
 		System.out.println("Test Completed Successfully");

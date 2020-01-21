@@ -8,7 +8,7 @@ import pages.GoogleSearchPage;
 
 public class GoogleSearchTest {
 	
-	private static WebDriver driver =null;
+	private static WebDriver driver = null;
 	
 	public static void main(String[] args) {
 		
@@ -35,7 +35,7 @@ public class GoogleSearchTest {
 		// driver.findElement(By.name("q")).sendKeys("automation step by step");
 		
 		
-		
+		//Using GoogleSearchPage POM
 		GoogleSearchPage.textbox_search(driver).sendKeys("automation step by step");
 		
 		

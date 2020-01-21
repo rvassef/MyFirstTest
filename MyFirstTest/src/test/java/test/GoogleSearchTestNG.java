@@ -12,15 +12,16 @@ import pages.GoogleSearchPage;
 
 public class GoogleSearchTestNG {
 
-	 WebDriver driver = null;
+	WebDriver driver = null;
 
 	@BeforeTest
 	public void setUpTest() {
 
 		String projectPath = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", "C:/Users/rvass/workspace/MyFirstTest/drivers/Chromedriver/Chromedriver.exe");
-	    driver = new ChromeDriver();
-		
+		System.setProperty("webdriver.chrome.driver",
+				"C:/Users/rvass/workspace/MyFirstTest/drivers/Chromedriver/Chromedriver.exe");
+		driver = new ChromeDriver();
+
 	}
 
 	@Test
@@ -34,14 +35,15 @@ public class GoogleSearchTestNG {
 
 		// enter text in search text box
 
-		 driver.findElement(By.name("q")).sendKeys("automation step by step");
+		driver.findElement(By.name("q")).sendKeys("automation step by step");
 
-		//GoogleSearchPage.textbox_search(driver).sendKeys("automation step by step");
+		// GoogleSearchPage.textbox_search(driver).sendKeys("automation step by
+		// step");
 
 		// driver.findElement(By.name("btnk")).click();
-	    driver.findElement(By.name("btnK")).sendKeys(Keys.RETURN);
+		driver.findElement(By.name("btnK")).sendKeys(Keys.RETURN);
 
-		//GoogleSearchPage.button_search(driver).sendKeys(Keys.RETURN);
+		// GoogleSearchPage.button_search(driver).sendKeys(Keys.RETURN);
 
 		// wait for 4 seconds
 
